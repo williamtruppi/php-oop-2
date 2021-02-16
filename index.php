@@ -24,10 +24,10 @@ $users = [
 <body>
 
   <?php foreach ($users as $user) { ?>
-    <h1><?php echo $user->username ?></h1>
-    <h3><?php echo $user->password ?></h3>
-    <h3><?php echo $user->email ?></h3>
-    <h3><?php echo $user->description ?></h3>
+    <h1>Username --> <?php echo $user->username ?></h1>
+    <h3>Password --> <?php echo $user->password ?></h3>
+    <h3>Email --> <?php echo $user->email ?></h3>
+    <h3>Description --> <?php echo $user->description ?></h3>
     <p>-----------------------------------------</p>
   <?php } ?>
 
