@@ -116,6 +116,11 @@
 
       return $this;
    }
+
+   public function logIn () {}
+
+   public function logOut() {}
+
  }
 
 ?>
